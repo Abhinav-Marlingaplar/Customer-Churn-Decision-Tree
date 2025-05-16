@@ -31,7 +31,6 @@ The project utilizes the publicly available "Telco Customer Churn" dataset, whic
 
 1.  **Clone the repository:**
     ```bash
-    # Replace with your repository URL if you have one
     https://github.com/Abhinav-Marlingaplar/Customer-Churn-Decision-Tree.git
     cd Churn-Prediction-Decision-Tree
     ```
@@ -60,13 +59,7 @@ The Jupyter Notebook `Customer_Churn.ipynb` contains the complete end-to-end wor
 ## Results
 
 The tuned Decision Tree Classifier model achieved an overall accuracy of approximately **0.78** on the test dataset.This indicates that while the model demonstrates good performance in predicting customers who will not churn (class 0) and the ones that will churn(class 1).
-## Future Work
 
-* Explore hyperparameter tuning techniques (e.g., GridSearchCV, RandomizedSearchCV) to further optimize the Decision Tree model.
-* Experiment with other classification algorithms (e.g., Random Forest, Gradient Boosting, Logistic Regression) and compare their performance on this dataset.
-* Investigate feature engineering techniques to create new features that might improve the model's predictive power, especially for the churn class.
-* Address the class imbalance present in the dataset using techniques like SMOTE or class weighting.
-* Analyze the feature importance derived from the Decision Tree to gain insights into the key drivers of customer churn.
 
 ## License
 
